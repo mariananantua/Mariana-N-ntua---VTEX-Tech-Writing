@@ -11,16 +11,17 @@ Before making this request, make sure you have the necessary [permissions](https
 
 You can send the invoice:
 
-* through [VTEX Admin](https://help.vtex.com/en/tutorial/how-to-manually-invoice-an-order--7p1h852V5t54KyscpgxE2v).
-* through API.
+* Through [VTEX Admin](https://help.vtex.com/en/tutorial/how-to-manually-invoice-an-order--7p1h852V5t54KyscpgxE2v).
+* Through API.
 
 
 To invoice an order through API:
 
 
 1. Send a POST request to the following endpoint:
-
-```https://{accountName}.{environment}.com.br/api/oms/pvt/orders/{orderId}/invoice```
+```
+https://{accountName}.{environment}.com.br/api/oms/pvt/orders/{orderId}/invoice
+```
 
 2.  Include the required parameters for this request:
 
@@ -39,7 +40,7 @@ To invoice an order through API:
 
 Here's an example using Python:
 
-```
+```python
 import http.client
 
 conn = http.client.HTTPSConnection("apiexamples.vtexcommercestable.com.br")
@@ -90,11 +91,10 @@ After shipping the order, you can update the [Partial invoice](https://help.vtex
 To add a tracking number to the order:
 
 1. Send a PATCH request to the following endpoint:
-
-
-```https://{accountName}.{environment}.com.br/api/oms/pvt/orders/{orderId}/invoice/{invoiceNumber}```
-
-3. In the request body, include the necessary parameters:
+```
+https://{accountName}.{environment}.com.br/api/oms/pvt/orders/{orderId}/invoice/{invoiceNumber}
+```
+2. In the request body, include the necessary parameters:
 
 * `trackingNumber`: the code that identifies the order tracking.
 * `trackingUrl`: the package tracking URL.
@@ -103,7 +103,7 @@ To add a tracking number to the order:
 
 See below an example using Python:
 
-```
+```python
 import http.client
 
 conn = http.client.HTTPSConnection("apiexamples.vtexcommercestable.com.br")
@@ -125,7 +125,7 @@ data = res.read()
 print(data.decode("utf-8"))
 ```
 
-4. The server will send a response with the following parameters:
+3. The server will send a response with the following parameters:
 
 * `date`.
 * `orderId`.
