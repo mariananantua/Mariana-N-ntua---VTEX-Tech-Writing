@@ -18,13 +18,13 @@ Para mais informações, leia o artigo [Criar uma política de envio](https://he
 
 ### Passo 2: Gerenciando o estoque
 
-O estoque é o local onde os produtos estão armazenados. Nessa etapa, você pode adicionar estoque, estabelecer o tempo de processamento do estoque à doca e custos. Na plataforma da VTEX, é possível ter mais de um estoque e editar o inventário de cada um individualmente.
+O estoque é o local onde os produtos estão armazenados. Nessa etapa, você pode adicionar estoque, estabelecer o tempo de processamento do estoque à doca e determinar custos. Na plataforma da VTEX, é possível ter mais de um estoque e editar o inventário de cada um.
 
 Para mais informações, leia o artigo [Gerenciar estoque](https://help.vtex.com/pt/tutorial/gerenciar-estoque--tutorials_137).
 
 ### Passo 3: Gerenciando a doca
 
-A doca é o local de onde saem os pedidos, um intermediário entre o estoque e a empresa responsável pela entrega do produto. 
+A doca é o local de onde saem os pedidos, um intermediário entre o estoque e a empresa responsável pela entrega do produto. Você pode cadastrar e editar docas e selecionar a doca preferencial para o envio.
 
 Para mais informações, leia o artigo [Gerenciar doca](https://help.vtex.com/pt/tutorial/gerenciar-doca--7K3FultD8I2cuuA6iyGEiW).
 
@@ -34,5 +34,4 @@ Para validar a sua estratégia de envio, você pode usar o [Simulador de envio](
 
 O simulador de envio analisa as opções de frete disponíveis e permite que você confira os itens disponíveis, os métodos de entrega, os prazos e os custos. Para rodar a simulação, são necessárias informações sobre: país, política comercial, produto, quantidade e o CEP ou endereço de destino.
 
-O resultado da  simulação vai apontar todas as formas de entrega e a disponibilidade dos produtos, descrevendo os detalhes do envio. Assim, você consegue identificar se sua estratégia de envio está operando da melhor forma para sua loja. 
-
+O resultado da  simulação vai apontar todas as formas de entrega e a disponibilidade dos produtos, descrevendo os detalhes do envio. Assim, você identifica se sua estratégia de envio está operando da melhor forma para sua loja.
