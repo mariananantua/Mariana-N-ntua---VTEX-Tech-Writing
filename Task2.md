@@ -5,6 +5,7 @@ A estratégia de envio engloba três aspectos da fase de entrega de um produto: 
 Recomendamos que você monte sua estratégia de envio seguindo os passos na ordem a seguir.
 
 ```mermaid
+graph TD;
  A(Criar a política de envio) --> B(Gerenciar o estoque)
  B --> C(Gerenciar a doca)
 ```
