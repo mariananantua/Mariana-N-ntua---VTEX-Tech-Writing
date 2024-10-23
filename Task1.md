@@ -7,7 +7,7 @@ You can find more information on the sections below.
 ## Invoice an order
 Adding the invoice to the order changes its status to `invoiced`. After that, you cannot change the order status.
 
-Before making this request, make sure you have the necessary [permissions](https://developers.vtex.com/docs/api-reference/orders-api#post-/api/oms/pvt/orders/-orderId-/invoice).
+Before making this request, make sure you have the necessary [permissions](https://developers.vtex.com/docs/api-reference/orders-api#post-/api/oms/pvt/orders/-orderId-/invoice) under the "Permissions" section.
 
 You can send the invoice:
 
@@ -36,7 +36,7 @@ https://{accountName}.{environment}.com.br/api/oms/pvt/orders/{orderId}/invoice
 	* `price`: prince of the SKU in cents.
 	* `quantity`: the amount of the SKU in inventory.
 
-> You can access the [full list of the parameters](https://developers.vtex.com/docs/api-reference/orders-api#post-/api/oms/pvt/orders/-orderId-/invoice) for this request.
+> You can access the [full list of the parameters](https://developers.vtex.com/docs/api-reference/orders-api#post-/api/oms/pvt/orders/-orderId-/invoice) for this request in the "Parameters" table.
 
 Here's an example using Python:
 
